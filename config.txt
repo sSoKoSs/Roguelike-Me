@@ -1,0 +1,7 @@
+(lp0
+S'YES'
+p1
+ag1
+aS'NO'
+p2
+a.
