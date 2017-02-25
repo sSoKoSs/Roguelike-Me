@@ -74,7 +74,7 @@ class menus:
 
 	def death(self, player):
 		self.screen.clear()
-		self.screen.addstr(self.SYX[1]/2, (self.SYX[0]/2) - (len('You have died.')/2), 'You have died.')
+		self.screen.addstr((self.SYX[0]/2) - (len('You have died.')/2), self.SYX[1]/2, 'You have died.')
 		self.screen.refresh()
 
 	def updateMainGame(self, player, mode, Map):
